@@ -1,0 +1,37 @@
+<!docktype HTML>
+<Head>
+<style>
+
+    #pentagon {
+      margin:auto;
+      margin-top: 90px;
+      position: relative;
+      width: 54px;
+      box-sizing: content-box;
+      border-width: 50px 18px 0;
+      border-style: solid;
+      border-color: red transparent;
+    }
+    #pentagon:before {
+      content: "";
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -85px;
+      left: -18px;
+      border-width: 0 45px 35px;
+      border-style: solid;
+      border-color: transparent transparent red;
+    }
+#pentagon.hover {
+
+}
+
+</style>
+</head>
+<body>
+
+<div Id="pentagon">HEY</div>
+
+</body>
+</html>
