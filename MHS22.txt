@@ -110,7 +110,7 @@ header {
 <div class="menu">
 <ul class="menu">
 <li>  <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/MHS.html"> Homepage </a>						</li>
-<li>     <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Team1/Team.html"> Team </a>				</li>
+<li>     <a href="MHS/Webpages/Team1/Team.html"> Team </a>				</li>
 <li>     <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/History/History.html"> History </a>			</li>
 <li>     <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Principle/Principle.htm"> Principles </a>		</li>
 <li>     <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Heads/Heads.htm"> Heads </a>				</li>
