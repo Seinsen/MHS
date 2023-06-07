@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zaira</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Template.css">
+<style>
+
+* {margin:0px;   text-decoration: none;}
+
+body {
+  font-family: Arial;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(51, 102, 255);
+  color: white;
+  padding: 9px 14px;
+  border: none;
+  float:left;
+}
+
+.openbtn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 3px;
+}
+
+
+{
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+img {
+  border-radius: 10px;
+}
+
+aside{
+	float: right;
+	background-color:lightgrey;
+	margin-top: 20px;
+	margin-right:10px;
+}
+
+
+.Para {
+   margin: 50px;
+  
+}
+
+.Bar{
+  	text-align:center; 
+  	font-family:arial; 
+  	text-size:70px; 
+  	background-color: red; 
+  	padding: 20px;
+  	margin-right:200px; 
+  	margin-top:5px;
+}
+
+aside{
+	background-color: lightgrey;
+	width:200px;
+	height:500px;
+	float: right;
+	Border: 5px solid black;
+	margin-top: 20px;
+	margin-right:10px;
+	overflow: scroll;
+	padding:20px;
+	font-size:20px;
+	
+}
+
+#Pic {
+	Border: 5px solid black;
+}
+
+hr {
+ top: 20px;
+ height: 5px;
+ border: none;
+ background: black;
+ Margin: 10px;
+ Margin-top: 10px; 
+}
+
+#D1 {
+  	font-size:15px;
+	Margin:100px;
+	Margin-right:250px;		
+	
+} 
+
+</style>
+</head>
+<body>
+
+<nav>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+
+ <a href="#Homepage"> Homepage</a>
+
+  <div class="dropdown">
+
+    <button class="dropbtn">History
+      <i class="fa fa-caret-down"></i>
+
+    </button>
+
+    <div class="dropdown-content">
+
+
+      <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/History/History.html">Link 1</a>
+      <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/History/History.html">Link 2</a>
+      <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/History/History.html">Link 3</a>
+    </div>
+
+  </div> 
+
+ <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Principle/Principle.htm">Principle</a>
+ <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Heads/Heads.htm">Heads</a>
+ <a href="#file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Clubs/Clubs.htm">Clubs</a>
+ <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Events/Events.htm">Events</a>
+ <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Refrence/Template.html">Reference</a>
+
+</div>
+
+</nav>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+ <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/Webpages/Team1/Team.html"> Team</a>
+  <a href="#Credits">Credits</a>
+  <a href="#">Contact</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div Id="Exia">
+
+
+AAAAA
+
+</div>
+
+
+<header>
+
+ <img Id="Lg1" src="Images/DPD.png" alt="Deped Logo" width="100px">
+
+<h1 Id="Mak">Makati Highschool Troupe</h1>
+
+<img Id="Lg2" src=" Images/MHS.jpeg" alt="Makati Highschool Logo"  width="100px">
+
+</header>
+
+
+  <hr>
+
+    <Div class="Bar">
+      <h1> <h1 Id="Name"></h1> </h1>
+    </div>
+
+
+
+
+<aside> <!-- Dito niyo lagay ang information. Kung may image kayo send niyo nalang saakin para mailagay ko. -->
+
+<img Id="Pic" src="...">
+
+<hr>
+
+<p Id="Age"></p> <br> <br>
+<p Id="occupation"></p> <br> <br>
+<p Id="Position"></p> <br> <br>
+<p Id="Name"></p> <br> <br>
+
+</aside>
+
+
+<script>
+const person = {
+  fullname: " Zaira Jane Amaro Gabo",
+  age: 15,
+  occupation: "Student",
+  position: "Student",
+  eyecolor: "blue"
+};
+
+document.getElementById("Name").innerHTML =  person.fullname;
+
+document.getElementById("Age").innerHTML = "Age:"+ "<br>" + person.age;
+
+document.getElementById("occupation").innerHTML = "Occupation:"+ "<br>" + person.Occupation;
+
+document.getElementById("Position").innerHTML = "Position:" + "<br>" + person.position;
+
+</script>
+
+  <div Id="D1"> <!--  Dito niyo lagay ang mas maraming information. Parang extended definition sa English pero sa tao. Tas unahin niyo muna ito bago yung vlog na iyan. -->
+
+  - I believe in the quote, "Let your success be your noise". <br>
+- Class Public Information Officer (SY 2020-2021 & SY 2022-2023). <br>
+- Class President (SY 2021-2022). <br>
+- Quarterly Science Quiz Bee Champion.
+- Students Affirming  Values Education (SAVE Club) Member. <br>
+- Kapisanan ng mga Mag-aaral sa Filipino (KamFil) Member. <br>
+- Classroom Stewardship Council (CSC Club) Member. <br>
+- Mathematics Club Member. <br>
+- 1st Honor (SY 2020-2021) <br>
+- With Honors (SY 2022-2023 <br>
+
+</div>
+
+
+ <!--  'Wag niyo din ito galawin. -->
+
+<Footer class="Maia">
+
+<img Id="Ml1" src="This Imgs/MHS.png" alt="Makati Highschool Troupe Logo">
+
+<div Id="Mf1">
+<h1> Our Contacts </H1>
+<h2>
+aarongabriel.senipete@depedmakati.ph
+</h2>
+</div>
+
+<div Id="Mf2">
+<h1>Makati Highschool Location</h1>
+<h2>
+H27M+G5F, General Luna, Makati, 1210 Metro Manila
+</h2>
+</div>
+
+</footer>
+
+
+
+<footer class="Azura">
+
+<div Id="f1">
+
+<h1>Makati High School Troupe
+
+<h2>
+
+<p Id="C1"> All content is made for a school project and is not eligable for public use</p>
+
+</h2>
+</Div>
+</footer>
+
+</body>
+</html>
